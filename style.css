@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* The main board container */
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+/* Menu container */
+.menu {
+  display: flex;
+  gap: 200px;
+}
+
+.menu input {
+  width: 50px;
+}
+
+.input-div {
+  display: flex;
+  gap: 20px;
+}
+
+/* 🎯 Each cell’s base appearance */
+.cell {
+  box-sizing: border-box;
+  background-color: lightblue;
+  border: 1.5px solid #b77777ff;
+  transition: background-color 0.2s ease;
+}
