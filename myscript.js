@@ -1,6 +1,8 @@
 let gridSize = 18;
 
-const board = document.getElementById("board");
+const plastic = document.getElementById("plastic");
+
+const board = plastic.childNodes[1];
 
 // --- Changing DOM ---
 const menuDiv = document.createElement("div");
@@ -23,7 +25,7 @@ gridSizeBut.addEventListener("click", changeGridSize);
 
 inputDiv.append(gridSizeReq, gridSizeBut);
 menuDiv.appendChild(inputDiv);
-document.body.appendChild(menuDiv);
+plastic.appendChild(menuDiv);
 
 // --- GRID CREATION ---
 function createGrid() {

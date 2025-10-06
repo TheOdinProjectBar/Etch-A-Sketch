@@ -1,12 +1,19 @@
 body {
+  background-color: #dfbebe; /* page background */
   display: flex;
-  flex-direction: column;
-  gap: 40px;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
+}
+
+#plastic {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  background-color: #df6d6d;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 /* The main board container */
