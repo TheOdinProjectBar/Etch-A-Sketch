@@ -16,6 +16,14 @@ body {
   border-radius: 10px;
 }
 
+.title{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 40px;
+   color: aquamarine;
+   padding-top: 10px;
+   margin: 0px;
+}
+
 /* The main board container */
 #board {
   display: flex;
@@ -27,7 +35,8 @@ body {
 /* Menu container */
 .menu {
   display: flex;
-  gap: 200px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .menu input {
@@ -36,7 +45,7 @@ body {
 
 .input-div {
   display: flex;
-  gap: 20px;
+  gap: 5px;
 }
 
 /* 🎯 Each cell’s base appearance */
